@@ -1,0 +1,26 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "hiro",
+  "main": "hello.js",
+  "scripts": {
+    "test": "yarn run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/happycode2015/hello.git"
+  },
+  "keywords": [
+    "hello"
+  ],
+  "author": "hiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/happycode2015/hello/issues"
+  },
+  "homepage": "https://github.com/happycode2015/hello#readme",
+  "dependencies": {
+    "oracledb": "^3.0.0",
+    "typescript": "^3.1.6"
+  }
+}

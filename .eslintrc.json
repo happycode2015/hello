@@ -1,0 +1,51 @@
+{
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            0,
+            "error",
+            "unix",
+            "windows"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            0,
+            "error",
+            "always"
+        ],
+        "no-console": [
+            0,
+            "error",
+            {
+                "allow": [
+                "warn",
+                "error"
+                ]
+            }
+
+        ],
+        "no-restricted-syntax": [
+            0,
+            "error",
+            {
+                "selector": "CallExpression[callee.object.name='console'][callee.property.name=/^(log|warn|error|info|trace)$/]",
+                "message": "Unexpected property on console object was called"
+            }
+        ]
+    }
+}
